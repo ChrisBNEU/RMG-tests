@@ -20,11 +20,11 @@ do
    conda remove -n $i --all -y
 done
 rm all_envs.txt
-echo 'ALL POSSIBLE CRASHED ENVIRONMENTS HAVE BEEN REMOVED'
+echo 'ALL POSSIBLE CRASHED ENVIRONMENTS HAVE BEEN REMOVED jk'
 
 py_branch="master"
 db_branch="master"
-jobs='NC'
+jobs='catalytic_combustion'
 data_dir='../data_dir'
 
 bash exe.sh $py_branch $db_branch $jobs $data_dir >> main_log.out
